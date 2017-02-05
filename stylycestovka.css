@@ -1,0 +1,24 @@
+body{background-color:white;}
+#obsah{position:absolute;width:600px;top:160px;left:150px;background-color:blue;}
+#patka{position:absolute;left:150px;width:600px;background-color:green;}
+#hlavicka{position:absolute;width:1100px;height:160px;top:0px;left:-100px;background-color:red;}
+#levy{position:absolute;width:250px;left:-100px;top:160px;background-color:yellow;}
+#pravy{position:absolute;width:250px;left:750px;top:160px;background-color:orange;}
+#patka{overflow:scroll; clear: both;}
+#stredstranky{margin:0px auto;position:relative;width:1100px}
+#hlavicka{overflow:scroll;}
+
+/*myslim ze budu muset udelat nejakou pseudotridu u patky protoze musi byt nastylovana az po obsahu, ale nevim kde obsah konci presne v pixelech bude pseudotrida nebo jinej druh pozice a taky asi pouzivat margin a dalsi atributz pro css poyicovani kouknout na css positioning code academy
+a stranka o boxsizing
+
+Naučit okraje objektů margin a padding 
+https://www.jakpsatweb.cz/okraje.html
+https://www.jakpsatweb.cz/css/margin.html#slucovani
+Naučit se box-sizing {hodnota box-sizing:content-box/border-box}
+https://www.jakpsatweb.cz/css/box-sizing.html
+a pouzivat asi tenhle postup
+http://www.vzhurudolu.cz/prirucka/css3-box-sizing
+Naucit se delkove jednotky v css
+https://www.jakpsatweb.cz/css/css-jednotky.html
+hodne dobra je codemy jsou tam cviceni na procvicovani stylu a vsechno je hned videt v pravy casti obrazovky 
+*/
